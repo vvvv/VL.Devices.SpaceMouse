@@ -527,6 +527,14 @@
               <Pin Id="BBAAEckfv80PMga2ZS34jt" Name="Input 2" Kind="InputPin" />
               <Pin Id="GV4PmZ9xCZLLCL60Ir2cKp" Name="Output" Kind="StateOutputPin" />
             </Node>
+            <Node Bounds="335,31,54,19" Id="CQ0LWWnybHHQJ4wj1h3H9R">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+              </p:NodeReference>
+              <Pin Id="R8bT5o9jt6QNjDe7q9R2CG" Name="Simulate" Kind="InputPin" />
+              <Pin Id="VX8dswPRRMwL6rOkg1rf6w" Name="Output" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="TrGEDfzaZv6NV8kCzxmgjm">
             <Fragment Id="TawipINrddYPyF4ZQnG9l5" Patch="CLiDbKlnef7QTn8cQMsO7v" Enabled="true" />
@@ -604,7 +612,7 @@
           <Link Id="HwD8h7yVbjPLeduy1euPOe" Ids="ExwDmzRT8h7QF6czTS5kix,TuIw92iqoV7Ozxe4WShxi6" />
           <Link Id="LtQI2YucN8LQOssVqb45KS" Ids="Pge1ACsEVMzOB68p7aOnou,SoQ8y2kbVwoLe5bLmOiPU3" IsFeedback="true" />
           <Link Id="RxQ3VW3E6QoPYIDlSCsD2y" Ids="SoQ8y2kbVwoLe5bLmOiPU3,TgYchJug3BuM8kC1fBwSZC" />
-          <Link Id="Pbm0XePgzrcO1JrjCmFKN3" Ids="N9OfmZHNZtSOQLCm6NPenp,DMCAMLNKMg7PLBEVdrroCk" />
+          <Link Id="Pbm0XePgzrcO1JrjCmFKN3" Ids="N9OfmZHNZtSOQLCm6NPenp,R8bT5o9jt6QNjDe7q9R2CG" />
           <Link Id="PLDA6jfnufxMvO2WSkJcvw" Ids="FBFRYJZ1raGPWNFzv6vHkm,N9OfmZHNZtSOQLCm6NPenp" IsHidden="true" />
           <Link Id="JONSEi5fhizP7KmvvS51AL" Ids="Iqjb2FMdafjLgMxl7FU4qh,EgmY0xM9wYAPHw3OQGK8N3" IsHidden="true" />
           <Link Id="JsaWUnwCDqHMKczQMP1YcR" Ids="RneLODbTUBFLwjmSI5m8Dp,Iqjb2FMdafjLgMxl7FU4qh" />
@@ -624,6 +632,7 @@
           <Link Id="PQBLrOD4VpaMwHuHGw4tf9" Ids="MyYxPuumJQMPYbTqvKCjWU,SaHJJ5VOfRuLm2KhQMyydX" />
           <Link Id="MXxv22dFhgZNQ8DNfd5my8" Ids="Ped5hxSiPFpL1Q7Edijtqb,BBAAEckfv80PMga2ZS34jt" />
           <Link Id="EOwRwJ4Z8RpNgYWJi3oZha" Ids="GV4PmZ9xCZLLCL60Ir2cKp,AK38BWTvGk6LOj3lL7jZIL" />
+          <Link Id="HOIUu75hPBgMlWiz8OQ0h4" Ids="VX8dswPRRMwL6rOkg1rf6w,DMCAMLNKMg7PLBEVdrroCk" />
         </Patch>
       </Node>
     </Canvas>
