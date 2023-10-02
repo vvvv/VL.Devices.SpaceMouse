@@ -1,5 +1,5 @@
 # VL.Devices.SpaceMouse
-Support for the SpaceMouse by 3dconnexion for VL
+A package for using the [SpaceMouse](https://3dconnexion.com/us/spacemouse/) by [3dconnexion](https://3dconnexion.com) in VL.
 
 Try it with vvvv, the visual live-programming environment for .NET  
 Download: http://visualprogramming.net
